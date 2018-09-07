@@ -11,8 +11,6 @@ namespace TaskManager.Business
 {
     public class TaskBL
     {
-        
-
         public List<TaskModel> GetAllTask()
         {
             TaskRepository obj = new TaskRepository();
